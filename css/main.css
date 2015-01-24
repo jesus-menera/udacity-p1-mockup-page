@@ -17,23 +17,23 @@
 
 .text-subtitle{
 	color: #F07C17;
-    letter-spacing: 0.004em;
+        letter-spacing: 0.004em;
 	font-weight: 900;
 	font-size: 1.739em;
 }
 
 .header{
-    margin-left: -15px;
-    margin-right: 0px;
-    margin-bottom: 20px;
+        margin-left: -15px;
+        margin-right: 0px;
+        margin-bottom: 20px;
 }
 
-.header > .col-md-12 {
+.header > .col-md-12{
 	padding-left: 0px;
 }
 
 .header h1{
-    padding-top: 25px;
+        padding-top: 25px;
 }
 
 .content{
@@ -48,10 +48,12 @@
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.sidebar-logo {
+
+.sidebar-logo{
 	width: 374px;
 	height: 374px;
 }
+
 .sidebar-features{
 	border: 1px solid black;
 	margin-top: 30px;
@@ -63,7 +65,7 @@
 .sidebar-features h2{
 	margin-top: -5px; 
 	margin-left: -2px;
-    margin-bottom: 0px;
+        margin-bottom: 0px;
 	padding-left: 0px; 
 	padding-top: 0px;
 }
@@ -83,20 +85,20 @@
 /* Article Rules*/
 .article{
 	margin-left: 0px;
-    padding-left: 30px;
-    padding-right: 0px;
-    max-width: 650px;
+    	padding-left: 30px;
+    	padding-right: 0px;
+    	max-width: 650px;
 }
 
-.article h2 {
-    margin-top: 0px;
-    margin-left: 0px;
-	margin-bottom: 30px;
+.article h2{
+    	margin-top: 0px;
+    	margin-left: 0px;
+    	margin-bottom: 30px;
 }
 
-.article p {
-    margin-top: 10px;
-    font-size: 1.178em;
-    margin-left: 0px;
-	line-height: 2em;
+.article p{
+    	margin-top: 10px;
+    	font-size: 1.178em;
+    	margin-left: 0px;
+    	line-height: 2em;
 }

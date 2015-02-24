@@ -1,104 +1,108 @@
-.container{
-	margin-left: 42px;
-	padding-left: 0px;
-	padding-right: 0px;
-	max-width: 1024px;
+.container {
+    margin: 0 0 0 42px;
+    padding: 0 0;
+    max-width: 1024px;
 }
+
 
 /* Font Styles */
-.mock-font{
-	font-family: Kalimati,Verdana,sans-serif;
-	color: #666666;
+.mock-font {
+    font-family: Kalimati,Verdana,sans-serif;
+    color: #666;
 }
 
-.text-title{
-	font-size: 3.4em;
+
+.text-title {
+    font-size: 3.4em;
 }
 
-.text-subtitle{
-	color: #f07c17;
-        letter-spacing: 0.004em;
-	font-weight: 900;
-	font-size: 1.739em;
+
+.text-subtitle {
+    color: #f60;
+    letter-spacing: 0.004em;
+    font-weight: 900;
+    font-size: 1.739em;
+}
+/* End Font Styles */
+
+
+.header {
+    margin: 0 0 20px 0;
+    padding: 0 15px 0 0;
 }
 
-.header{
-        margin-left: -15px;
-        margin-right: 0px;
-        margin-bottom: 20px;
+
+.header > .col-md-12 {
+    padding-left: 0;
 }
 
-.header > .col-md-12{
-	padding-left: 0px;
+
+.header h1 {
+    padding: 25px 0 0;
 }
 
-.header h1{
-        padding-top: 25px;
+
+.content {
+    margin: 0 0;
 }
 
-.content{
-	margin-left: 0px;
-	margin-right: 0px;
-}
 
 /* Sidebar Rules*/
-.sidebar{
-	max-width: 374px;
-	margin-bottom: 20px;
-	padding-left: 0px;
-	padding-right: 0px;
+.sidebar {
+    max-width: 374px;
+    margin: 0 0 20px;
+    padding: 0 0;
 }
 
-.sidebar-logo{
-	width: 374px;
-	height: 374px;
+
+.sidebar-logo {
+    width: 374px;
+    height: 374px;
 }
 
-.sidebar-features{
-	border: 1px solid black;
-	margin-top: 30px;
-	height: 223px;
-	padding-left: 32px; 
-	padding-top: 35px;
+
+.sidebar-features {
+    border: 1px solid #ccc;
+    margin: 30px 0 0;
+    height: 224px;
+    padding: 35px 0 0 32px;
 }
 
-.sidebar-features h2{
-	margin-top: -5px; 
-	margin-left: -2px;
-        margin-bottom: 0px;
-	padding-left: 0px; 
-	padding-top: 0px;
+
+.sidebar-features h2 {
+    margin: -5px 0 0 -2px;
+    padding: 0 0;
 }
 
-.sidebar-features ul{
-	padding-left: 38px;
-	padding-top: 0px;
-	margin-top: 30px;
+
+.sidebar-features ul {
+    padding: 0 0 0 38px;
+    margin-top: 30px;
 }
 
-.sidebar-features ul li{
-	padding-left: 0px; 
-	font-size: 1.15em;
-	line-height: 2em;
+
+.sidebar-features ul li {
+    padding: 0 0;
+    font-size: 1.15em;
+    line-height: 2em;
 }
+
 
 /* Article Rules*/
-.article{
-	margin-left: 0px;
-    	padding-left: 30px;
-    	padding-right: 0px;
-    	max-width: 650px;
+.article {
+    margin: 0 0;
+    padding: 0 0 0 30px;
+    max-width: 650px;
 }
 
-.article h2{
-    	margin-top: 0px;
-    	margin-left: 0px;
-    	margin-bottom: 30px;
+
+.article h2 {
+    margin: 0 0 30px
 }
 
-.article p{
-    	margin-top: 10px;
-    	font-size: 1.178em;
-    	margin-left: 0px;
-    	line-height: 2em;
+
+.article p {
+    margin: 10px 0 10px 0;
+    font-size: 1.178em;
+    line-height: 2em;
 }
